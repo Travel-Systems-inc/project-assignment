@@ -3,7 +3,7 @@
 1. [Overview](#overview)
 2. [Product Spec](#product)
 3. [Wireframes](#wireframe)
-## **Overview {#overview}**
+## Overview {#overview}
 ### **Description**
 A travel game where you claim areas that you are currently located at as your base. It uses your current geolocation of your device and Google Maps to setup the playfield and allows you to also view local players near you. Expand a base to other areas, invite other players to be a member of your base to strengthen it, and battle other player bases that can contest for your base's land.
 
