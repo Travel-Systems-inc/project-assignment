@@ -1,6 +1,6 @@
 # **Virtual Travel**
 ## **Table of Contents**
-1. [Overview](#Overview)
+1. [Overview](#Overview-Overview)
 2. [Product Spec](#product)
 3. [Wireframes](#wireframe)
 ## Overview {#Overview}
