@@ -1,9 +1,9 @@
 # **Virtual Travel**
 ## **Table of Contents**
-1. [Overview](#overview_id)
-2. [Product Spec](#product_id)
-3. [Wireframes](#wireframe_id)
-## **Overview** {#overview_id}
+1. [Overview](#overview)
+2. [Product Spec](#product)
+3. [Wireframes](#wireframe)
+## **Overview** {#overview}
 ### **Description**
 A travel game where you claim areas that you are currently located at as your base. It uses your current geolocation of your device and Google Maps to setup the playfield and allows you to also view local players near you. Expand a base to other areas, invite other players to be a member of your base to strengthen it, and battle other player bases that can contest for your base's land.
 
@@ -14,7 +14,7 @@ A travel game where you claim areas that you are currently located at as your ba
 - **Habit:** This app is not intended to be used all day but is meant to bring people the player knows together and try to work together
 - **Scope:** From one person this app can bring that person's network together and create a more enhanced experience
 
-## **Product Spec** {#product_id}
+## **Product Spec** {#product}
 
 ### 1.	User Stories (Required/Optional)
 #### **Required Must-Have Stories**
@@ -47,7 +47,7 @@ A travel game where you claim areas that you are currently located at as your ba
 - Log-In Screen -> Account Creation
 - Settings -> toggle the settings
 
-## Wireframes {#wireframe_id}
+## Wireframes {#wireframe}
 
 ## Schema
 
