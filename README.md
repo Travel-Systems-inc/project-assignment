@@ -83,3 +83,9 @@ Note
 	- (POST) create new user account
 	- (PUT) change forgotten password
 	- (GET) log into existing account
+
+## **Build Progress**
+March 1, 2023
+ - Created a Firebase Datastore with some example documents of our proposed models
+ 
+ ![progressMilestone3](https://user-images.githubusercontent.com/70590429/222326403-987e3e81-2c87-490d-afba-b0cba31ca901.gif)
