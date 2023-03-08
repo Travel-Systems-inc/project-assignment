@@ -6,7 +6,7 @@
 4. [User Stories](#userstories)
 ## Overview
 ### **Description**
-A travel game where you claim areas that you are currently located at as your base. It uses your current geolocation of your device and Google Maps to setup the playfield and allows you to also view local players near you. Expand a base to other areas, invite other players to be a member of your base to strengthen it, and battle other player bases that can contest for your base's land.
+A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you build bases, create allies/enemies and leave notes on a virtual map of the real world. It uses your current geolocation of your device and Google Maps to setup the playfield and allows you to view added friend players near you and other player's bases. Future of the app can go to focus on adding a battling/contesting between players' bases aspect or focus on friendly player interaction where bases are stations or oasis players can visit to trade and exchange.
 
 ### **App Evaluation**
 - **Category:** GPS AR game
@@ -29,9 +29,10 @@ A travel game where you claim areas that you are currently located at as your ba
 - Battle other bases
 - Defend your base against others
 - User can upgrade bases
+- Users can band together to power-up bases
 
 ### 2.	Screens 
-- Login
+- Main Login
 - Create an account
 	-After installing the application, the user needs to log in/register for an account in order to have access for service, product reselling, rental, etc.
 - Settings Screen 
