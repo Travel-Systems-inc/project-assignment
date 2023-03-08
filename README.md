@@ -19,7 +19,8 @@ A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you bu
 
 ### 1.	User Stories (Required/Optional)
 #### **Required Must-Have Stories**
-- User creates an account
+- User registers an account
+- User logs into registered account
 - User can view their character on the map
 - User can create a base if an area is uninhabited
 - User can freeroam and view other player's bases on the map (but only bases that are in areas that you visited)
@@ -33,9 +34,13 @@ A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you bu
 
 ### 2.	Screens 
 - Main Login
-- Create an account
-	-After installing the application, the user needs to log in/register for an account in order to have access for service, product reselling, rental, etc.
-- Settings Screen 
+- Registration
+	- After installing the application, the user needs to log in/register for an account in order to have access for service, product reselling, rental, etc.
+- Map View
+	- If user allows current location permission, Google map of current location is loaded and user character and nearby bases are overlaid on screen.
+	- Else without current location permission, empty screen with message stating map can't be loaded is displayed
+	- Button that goes to settings screen is at top-left
+- Settings
 	- Users can change their language, preferences, and notification 
 
 ### **3.	Navigation**
@@ -55,29 +60,31 @@ A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you bu
 
 ### **Models**
 User
-|**Property**|**Type**|**Description**|
+|**Document**|**Type**|**Description**|
 |------------|--------|---------------|
-| username | String | Name of user |
-| email  | String | Email of user |
-| password | String | Password of user |
-| level | Float | The player's experience in the game |
-| visible | Boolean | Flag for whether local players can find you on the map or not |
-| ownedBases | Array | References to bases that are owned by this player |
-| trustedBases | Array | References to bases that trust you |
+| email  | String | Email of user account |
+| createdAt | Timestamp | Date the user made an account |
+| level | Number (1-255) | Scores the player's playing experience |
+| visible | Number (0 or 1) | Flag for whether friends can see you (1) or not (0) in-game |
+| friends | Array | User reference array of friends |
+| requests | Array | User reference array of users requesting to be friends |
 
 Base
-|**Property**|**Type**|**Description**|
+|**Document**|**Type**|**Description**|
 |------------|--------|---------------|
-| userId | Reference | Owner of the base |
-| center | Location | Longitude and Latitude of base center |
-| members | Array | An array of user references that are trusted in the base |
-| level | Float | The maturity of the base |
+| createdAt | Timestamp | Date when the base was founded |
+| owner | Reference | User that created the base |
+| center | Geopoint | Longitude and Latitude of base center |
+| members | Array | User reference array that are trusted in the base |
+| level | Number (1-255) | The maturity of the base |
 
 Note
 |**Property**|**Type**|**Description**|
 |------------|--------|---------------|
 | author | Reference | The user that created the note |
-| description | String | The contents of the note |
+| createdAt | Timestamp | Date note was written |
+| location | Geopoint | Location note was left at |
+| description | String | The contents of the note (filtering is applied before creation and after being retrieved) |
 
 ## **Networking**
 - Login Screen
@@ -86,7 +93,7 @@ Note
 	- (GET) log into existing account
 
 ## **Build Progress**
-March 1, 2023
- - Created a Firebase Datastore with some example documents of our proposed models
- 
- ![progressMilestone3](https://user-images.githubusercontent.com/70590429/222326403-987e3e81-2c87-490d-afba-b0cba31ca901.gif)
+### Sprint 1
+### Sprint 2
+### Sprint 3
+ - March 1, 2023: Created a Firebase Datastore with some example documents of our proposed models
