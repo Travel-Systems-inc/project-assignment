@@ -3,7 +3,6 @@
 1. [Overview](#overview)
 2. [Product Spec](#product-spec)
 3. [Wireframes](#wireframes)
-4. [User Stories](#userstories)
 ## Overview
 ### **Description**
 A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you build bases, create allies/enemies and leave notes on a virtual map of the real world. It uses your current geolocation of your device and Google Maps to setup the playfield and allows you to view added friend players near you and other player's bases. Future of the app can go to focus on adding a battling/contesting between players' bases aspect or focus on friendly player interaction where bases are stations or oasis players can visit to trade and exchange.
@@ -19,17 +18,19 @@ A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you bu
 
 ### 1.	User Stories (Required/Optional)
 #### **Required Must-Have Stories**
-- User registers an account
+- User enters main page/logs off account
+- User registers a new account
 - User logs into registered account
-- User can view their character on the map
-- User can create a base if an area is uninhabited
-- User can freeroam and view other player's bases on the map (but only bases that are in areas that you visited)
-- User can read notes left by other players (in seen areas)
+- User views main map screen
+- User creates a base in uninhabited area
+- User switches to freeroam mode
+- User write a note 
+- User finds and reads notes left by other players around current location
 
 #### **Optional Nice-to-have Stories**
 - Battle other bases
-- Defend your base against others
-- User can upgrade bases
+- UserDefend your base against others
+- User upgrades bases
 - Users can band together to power-up bases
 
 ### 2.	Screens 
