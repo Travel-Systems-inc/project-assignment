@@ -57,6 +57,8 @@ A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you bu
 
 ## Wireframes
 
+![20230322_110941(1)](https://user-images.githubusercontent.com/70590429/226950289-0e17a1f5-17bf-420c-9ca4-0a8ccfda0eac.jpg)
+
 ## Schema
 
 ### **Models**
