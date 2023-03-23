@@ -76,6 +76,7 @@ User
 Base
 |**Document Field**|**Type**|**Description**|
 |------------|--------|---------------|
+| name | String | Name declared for base |
 | createdAt | Timestamp | Date when the base was founded |
 | owner | Reference | User that created the base |
 | center | Geopoint | Longitude and Latitude of base center |
