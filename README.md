@@ -100,3 +100,6 @@ Note
 ### Sprint 2
 ### Sprint 3
  - March 1, 2023: Created a Firebase Datastore with some example documents of our proposed models
+### Sprint 4
+### Sprint 5
+ - March 22, 2023: Created MapView page
