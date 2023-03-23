@@ -70,8 +70,8 @@ User
 | createdAt | Timestamp | Date the user made an account |
 | level | Number | The player's experience level (1-256) |
 | visible | Number | Binary flag for whether friends can see you (1) or not (0) in-game |
-| friends | Array | User reference array of friends |
-| requests | Array | User reference array of users requesting to be friends |
+| friends | Array | Array of User names that are friends |
+| requests | Array | Array of User names requesting to be friends |
 
 Base
 |**Document Field**|**Type**|**Description**|
