@@ -90,16 +90,23 @@ Note
 | description | String | The contents of the note (filtering is applied before creation and after being retrieved) |
 
 ## **Networking**
-- Login Screen
+ - Login Screen
 	- (POST) create new user account
 	- (PUT) change forgotten password
 	- (GET) log into existing account
+ - Registration Screen
+ 	- (POST)
 
 ## **Build Progress**
-### Sprint 1
-### Sprint 2
-### Sprint 3
- - March 1, 2023: Created a Firebase Datastore with some example documents of our proposed models
-### Sprint 4
-### Sprint 5
- - March 22, 2023: Created MapView page
+### Sprint 1 - Feb 11, 2023
+### Sprint 2 - Feb 22, 2023
+### Sprint 3 - Mar 1, 2023
+ - Created a Firebase Datastore with some example documents of our proposed models
+### Sprint 4 - March 8, 2023
+ - Created Login Page
+ - Created Registration Page
+### Sprint 5 - March 22, 2023
+ - Created MapView page
+ - Started Firebase authentication using Email/Password accounts
+ ![authentication_Firebase_Console](https://user-images.githubusercontent.com/70590429/227271912-0dc45877-869a-4d0c-a3e5-c1c38cd68556.gif)
+### Sprint 6 - April ,2023
