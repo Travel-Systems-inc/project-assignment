@@ -63,26 +63,27 @@ A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you bu
 
 ### **Models**
 User
-|**Document**|**Type**|**Description**|
+|**Document Field**|**Type**|**Description**|
 |------------|--------|---------------|
+| name | String | Name of User |
 | email  | String | Email of user account |
 | createdAt | Timestamp | Date the user made an account |
-| level | Number (1-255) | Scores the player's playing experience |
-| visible | Number (0 or 1) | Flag for whether friends can see you (1) or not (0) in-game |
+| level | Number | The player's experience level (1-256) |
+| visible | Number | Binary flag for whether friends can see you (1) or not (0) in-game |
 | friends | Array | User reference array of friends |
 | requests | Array | User reference array of users requesting to be friends |
 
 Base
-|**Document**|**Type**|**Description**|
+|**Document Field**|**Type**|**Description**|
 |------------|--------|---------------|
 | createdAt | Timestamp | Date when the base was founded |
 | owner | Reference | User that created the base |
 | center | Geopoint | Longitude and Latitude of base center |
 | members | Array | User reference array that are trusted in the base |
-| level | Number (1-255) | The maturity of the base |
+| type | Number | Says what type of base it is (0 for public [nearby users can join], 1 for private [only invited players can join]) |
 
 Note
-|**Property**|**Type**|**Description**|
+|**Document Field**|**Type**|**Description**|
 |------------|--------|---------------|
 | author | Reference | The user that created the note |
 | createdAt | Timestamp | Date note was written |
@@ -90,23 +91,41 @@ Note
 | description | String | The contents of the note (filtering is applied before creation and after being retrieved) |
 
 ## **Networking**
+ - Main Page
  - Login Screen
 	- (POST) create new user account
 	- (PUT) change forgotten password
 	- (GET) log into existing account
  - Registration Screen
  	- (POST)
+ - MapView Screen
+ - Settings
 
 ## **Build Progress**
-### Sprint 1 - Feb 11, 2023
-### Sprint 2 - Feb 22, 2023
-### Sprint 3 - Mar 1, 2023
+### Sprint 1 - February 11, 2023
+### Sprint 2 - February 22, 2023
+### Sprint 3 - March 1, 2023
+ 
  - Created a Firebase Datastore with some example documents of our proposed models
+ 
 ### Sprint 4 - March 8, 2023
+ 
  - Created Login Page
+ 
  - Created Registration Page
+
 ### Sprint 5 - March 22, 2023
- - Created MapView page
+
+ - Created draft for MapView page
+
+ ![progressMilestone5](https://user-images.githubusercontent.com/70590429/227332733-a3533738-39d7-4af6-bfdb-2921cda700c4.gif)
+
  - Started Firebase authentication using Email/Password accounts
- ![authentication_Firebase_Console](https://user-images.githubusercontent.com/70590429/227271912-0dc45877-869a-4d0c-a3e5-c1c38cd68556.gif)
-### Sprint 6 - April ,2023
+
+![authentication_Firebase_Console](https://user-images.githubusercontent.com/70590429/227271912-0dc45877-869a-4d0c-a3e5-c1c38cd68556.gif)
+
+- Added "type" field to "Base" Collection (a base can be public or private)
+
+### Sprint 6 - March 29, 2023
+### Sprint 7 - April ,2023
+### Sprint 8 - April ,2023
