@@ -18,18 +18,20 @@ A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you bu
 
 ### 1.	User Stories (Required/Optional)
 #### **Required Must-Have Stories**
-- User enters main page/logs off account
-- User registers a new account
-- User logs into registered account
-- User views main map screen
-- User creates a base in uninhabited area
-- User switches to freeroam mode
-- User write a note 
+- User views main page when no account is logged in
+- User fills form to receive email to register account
+- User enters credentials to log into registered account
+- User views main map screen when logged in
+- User views player stats through the profile page
+- User edits user settings in the settings page
+- User creates a base in vacant area within a close distance to their current location
+- User switches to freeroam mode and can view all bases and notes in a area
+- User write a note at a location
 - User finds and reads notes left by other players around current location
 
 #### **Optional Nice-to-have Stories**
-- Battle other bases
-- UserDefend your base against others
+- User battles other bases
+- Users defend base against others
 - User upgrades bases
 - Users can band together to power-up bases
 
