@@ -1,11 +1,16 @@
 import React from 'react'
 import './App.css'
-import firebase from './firebase'
+import ExampleDocument from './components/ExampleDocument'
 
 function App () {
   return (
-    <div className="App">
-
+    <div className='App'>
+      <header className='App-Header'>
+        <h1>Firestore Exampe</h1>
+      </header>
+      <main >
+        <ExampleDocument />
+      </main>
     </div>
   )
 }
