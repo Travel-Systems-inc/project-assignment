@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-import ExampleDocument from './components/ExampleDocument'
+//import ExampleDocument from './components/ExampleDocument'
+import Login from './screens/Login'
 
 function App () {
   return (
@@ -9,7 +10,7 @@ function App () {
         <h1>Firestore Exampe</h1>
       </header>
       <main >
-        <ExampleDocument />
+        <Login />
       </main>
     </div>
   )
