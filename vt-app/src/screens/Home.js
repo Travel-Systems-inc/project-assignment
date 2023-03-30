@@ -1,10 +1,8 @@
-import Component from "react";
+import React from "react";
 
 //class type reactjs file
-export default class Home extends Component{
-    render(){
-        return (
-            <></>
-        )
-    }
+export default function Home(){
+    return (
+        <></>
+    )
 }
