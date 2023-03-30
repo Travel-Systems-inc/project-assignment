@@ -130,5 +130,12 @@ Note
 - Added "type" field to "Base" Collection (a base can be public or private)
 
 ### Sprint 6 - March 29, 2023
+- Moved 'Update Login Page' to sprint 7 instead of 6 and renamed to 'Finalize Login page barebones'
+
+- Started a ReactJS app with Github codespace (editing can be done in the vscode editor that opens up or in IntelliJ by using JetBrains Gateway and connecting to github codespace)
+
+
+- Have a login screen
+
 ### Sprint 7 - April ,2023
 ### Sprint 8 - April ,2023
