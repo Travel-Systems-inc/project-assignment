@@ -134,8 +134,13 @@ Note
 
 - Started a ReactJS app with Github codespace (editing can be done in the vscode editor that opens up or in IntelliJ by using JetBrains Gateway and connecting to github codespace)
 
+![progressMilestone6](https://user-images.githubusercontent.com/70590429/228701021-4f00c9b9-a0bf-4564-92b5-eb4d63e0c50a.gif)
 
 - Have a login screen
+
+![progressMilestone6 1](https://user-images.githubusercontent.com/70590429/228701490-f25cc8a6-6701-4e9a-be38-067b48021a11.gif)
+
+- Have settings screen
 
 ### Sprint 7 - April ,2023
 ### Sprint 8 - April ,2023
