@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 //import ExampleDocument from './components/ExampleDocument'
-import Login from './screens/Login'
+import { Login } from './screens/Login'
 
 function App () {
   return (
