@@ -3,7 +3,6 @@ import useState from "react"
 import useNavigate from "react-router-dom"
 import signInWithEmailAndPassword from "firebase/auth"
 import auth from "../firebaseSetup"
-import "bootstrap/dist/css/bootstrap.min.css"
 
 export default function Login(){
     const navigate = useNavigate()
