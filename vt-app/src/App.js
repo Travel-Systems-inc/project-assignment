@@ -1,17 +1,18 @@
 import React from 'react'
-import './App.css'
-import Home from './screens'
+import Home from './screens/Home'
+import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import Login from "./screens/Login";
 
 function App () {
   return (
-    <div className='App'>
-      <header className='App-Header'>
-        <h1>Firestore Exampe</h1>
-      </header>
-      <main >
-        <Home />
-      </main>
-    </div>
+    <Router>
+        <div className="container">
+            <Routes>
+                <Route element={<Home/>} path='/' index/>
+                <Route element={<Login/>} path='/login/' index/>
+            </Routes>
+        </div>
+    </Router>
   )
 }
 
