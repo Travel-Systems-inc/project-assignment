@@ -83,7 +83,7 @@ Base
 | owner | Reference | User that created the base |
 | center | Geopoint | Longitude and Latitude of base center |
 | members | Array | User reference array that are trusted in the base |
-| type | Number | Says what type of base it is (0 for public [nearby users can join], 1 for private [only invited players can join]) |
+| type | String | Says what type of base it is ('public' [nearby users can join], 'private' [only invited players can join]) |
 
 Note
 |**Document Field**|**Type**|**Description**|
