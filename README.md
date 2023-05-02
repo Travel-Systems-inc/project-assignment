@@ -91,7 +91,7 @@ Note
 | author | Reference | The user that created the note |
 | createdAt | Timestamp | Date note was written |
 | location | Geopoint | Location note was left at |
-| description | String | The contents of the note (filtering is applied before creation and after being retrieved) |
+| title | String | Label of note (filtering is applied before creation and after being retrieved, and max character length of 25) |
 
 ## **Networking**
  - Main Page
@@ -142,5 +142,6 @@ Note
 
 - Have settings screen
 
-### Sprint 7 - April ,2023
-### Sprint 8 - April ,2023
+### Sprint 7 - April 5, 2023
+### Sprint 8 - April 12, 2023
+### Sprint 9 - April 23, 2023
