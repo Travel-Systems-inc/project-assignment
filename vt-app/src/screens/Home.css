@@ -1,9 +1,19 @@
-.container {
-    width: 100%;
+/* Home.css */
+html,
+body {
     height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
 }
 
-.map-container {
-    width: 100%;
+.container {
     height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
 }

@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import loadGoogleMapsApi from 'load-google-maps-api'
-import './Home.css'
+//import './Home.css'
 
 //class type reactjs file
 export default function Home(){
@@ -9,7 +9,7 @@ export default function Home(){
     let markerLookUp = [];
 
     useEffect(() => {
-        loadGoogleMapsApi({ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY })
+        loadGoogleMapsApi({ key: process.env.REACT_APP_MAPS_API_KEY })
             .then(() => {
                 initMap();
             })
@@ -91,8 +91,6 @@ export default function Home(){
 
     window.initMap = initMap;
     return (
-        <div className="container">
-            <div id="map" className="map-container"></div>
-        </div>
+            <div id="map" style={{height: 100}}></div>
     )
 }
