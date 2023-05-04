@@ -83,7 +83,7 @@ Base
 | owner | Reference | User that created the base |
 | center | Geopoint | Longitude and Latitude of base center |
 | members | Array | User reference array that are trusted in the base |
-| type | Number | Says what type of base it is (0 for public [nearby users can join], 1 for private [only invited players can join]) |
+| type | String | Says what type of base it is ('public' [nearby users can join], 'private' [only invited players can join]) |
 
 Note
 |**Document Field**|**Type**|**Description**|
@@ -91,7 +91,7 @@ Note
 | author | Reference | The user that created the note |
 | createdAt | Timestamp | Date note was written |
 | location | Geopoint | Location note was left at |
-| description | String | The contents of the note (filtering is applied before creation and after being retrieved) |
+| title | String | Label of note (filtering is applied before creation and after being retrieved, and max character length of 25) |
 
 ## **Networking**
  - Main Page
@@ -142,5 +142,6 @@ Note
 
 - Have settings screen
 
-### Sprint 7 - April ,2023
-### Sprint 8 - April ,2023
+### Sprint 7 - April 5, 2023
+### Sprint 8 - April 12, 2023
+### Sprint 9 - April 23, 2023
