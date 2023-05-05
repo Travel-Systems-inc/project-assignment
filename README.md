@@ -61,6 +61,10 @@ A travel game similar to a fusion of Pokemon Go and Clash of Clans, where you bu
 
 ![20230322_110941(1)](https://user-images.githubusercontent.com/70590429/226950289-0e17a1f5-17bf-420c-9ca4-0a8ccfda0eac.jpg)
 
+CIS expo wireframe
+![assignment](https://user-images.githubusercontent.com/70590429/236367109-06f9b67e-3655-468c-8fba-96c2e9437fbe.png)
+
+
 ## Schema
 
 ### **Models**
