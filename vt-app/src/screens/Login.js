@@ -7,9 +7,12 @@ export default function Login(){
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
+    const onLogin = (e) => {
+        navigate('/')
+    }
     return (
         <div className="bar-color">
-            <h1 className="text-center"><u>Create Account</u></h1>
+            <h1 className="text-center"><u>Log In</u></h1>
         <form>
             <div className="form-group w-25 mx-auto">
                 <label for="exampleInputEmail1">Email address</label>
@@ -22,9 +25,7 @@ export default function Login(){
                     required
                     onChange={(e)=>setEmail(e.target.value)}
                 />
-                <small id="emailHelp" class="form-text text-muted">
-                    We'll never share your email with anyone else.
-                </small>
+
             </div>
             <div className="form-group w-25 mx-auto">
                 <label for="exampleInputPassword1">Password</label>
@@ -41,7 +42,9 @@ export default function Login(){
             <br/>
             <button
                 type="submit"
-                className="btn btn-primary">
+                className="btn btn-primary"
+                onClick={onLogin}
+            >
                 Submit
             </button>
                 <br/>

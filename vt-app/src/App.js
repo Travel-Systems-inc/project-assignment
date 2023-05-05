@@ -4,6 +4,8 @@ import {Route, BrowserRouter as Router, Routes} from 'react-router-dom'
 import Login from './screens/Login'
 import Menu from './components/Menu'
 import Footer from './components/Footer'
+import Registration from "./screens/Registration";
+import Choose from "./screens/Choose";
 
 function App () {
   return (
@@ -12,8 +14,10 @@ function App () {
             <Menu/>
             <div className="flex-grow-1 ">
                 <Routes>
-                    <Route element={<Home />} path='/' />
+                    <Route element={<Home />} path='/map/' />
+                    <Route element={<Choose />} path='/' index />
                     <Route element={<Login />} path='/login/' />
+                    <Route element={<Registration />} path='/create/' />
                 </Routes>
             </div>
             <Footer />
