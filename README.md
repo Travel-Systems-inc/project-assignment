@@ -94,15 +94,15 @@ Note
 | title | String | Label of note (filtering is applied before creation and after being retrieved, and max character length of 25) |
 
 ## **Networking**
- - Main Page
+ - Main Screen
+ 	- (No requests are sent)
  - Login Screen
-	- (POST) create new user account
-	- (PUT) change forgotten password
-	- (GET) log into existing account
+	- (GET `localhost:8080/api/login/`) sends user login request to the firebase Authentication and returns whether login was successful or not
  - Registration Screen
- 	- (POST)
+ 	- (POST `localhost:8080/api/register/`) registers a user account that does not use the same email as another user to firebaseAuth
  - MapView Screen
- - Settings
+ 	- (GET `localhost:8080/api/note/?point={lat},{lng}&rad={radius}`) retrieve all notes within a radius from a location
+	- Settings (collapsible panel)
 
 ## **Build Progress**
 ### Sprint 1 - February 11, 2023
@@ -145,3 +145,9 @@ Note
 ### Sprint 7 - April 5, 2023
 ### Sprint 8 - April 12, 2023
 ### Sprint 9 - April 23, 2023
+- Worked on getting the screens to look like the presentation wireframes
+#### New screenshot of MapView page
+![Screenshot 2023-05-04 at 22-14-22 React App](https://user-images.githubusercontent.com/70590429/236364953-a15be2fe-40d5-41cb-adcc-86f500335d3f.png)
+#### Login page
+![Screenshot 2023-05-04 at 22-14-46 React App](https://user-images.githubusercontent.com/70590429/236364994-738178db-c2b1-491d-96dc-9911808f9e92.png)
+
