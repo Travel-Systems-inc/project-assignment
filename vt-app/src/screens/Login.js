@@ -8,6 +8,8 @@ export default function Login(){
     const [password, setPassword] = useState('')
 
     return (
+        <div className="bar-color">
+            <h1 className="text-center"><u>Create Account</u></h1>
         <form>
             <div className="form-group w-25 mx-auto">
                 <label for="exampleInputEmail1">Email address</label>
@@ -35,11 +37,18 @@ export default function Login(){
                     onChange={(e)=>setPassword(e.target.value)}
                 />
             </div>
+            <div className="form-group text-center w-25 mx-auto">
+            <br/>
             <button
                 type="submit"
                 className="btn btn-primary">
-                Submite
+                Submit
             </button>
+                <br/>
+                <br/>
+                <br/>
+            </div>
         </form>
+        </div>
     )
 }

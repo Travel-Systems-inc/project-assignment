@@ -10,9 +10,10 @@ function App () {
     <Router>
         <div className="container-fluid d-flex flex-column pe-0 ps-0 min-vh-100">
             <Menu/>
-            <div className="flex-grow-1">
+            <div className="flex-grow-1 ">
                 <Routes>
-                    <Route element={<Login/>} path='/login/' />
+                    <Route element={<Home />} path='/' />
+                    <Route element={<Login />} path='/login/' />
                 </Routes>
             </div>
             <Footer />
